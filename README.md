@@ -1,6 +1,6 @@
 # ValCard - Valentine's Card Creator 💝
 
-A web application for creating and sharing personalized Valentine's Day cards. Built with React, TypeScript, and Firebase.
+A modern web application for creating and sharing personalized Valentine's Day cards. Built with React, TypeScript, and Firebase.
 
 ## ✨ Features
 
@@ -16,10 +16,28 @@ A web application for creating and sharing personalized Valentine's Day cards. B
 
 ### Prerequisites
 
-- Node.js (v16 or higher)
+- Node.js (v20.0.0 or higher)
 - npm or yarn
 - Firebase account
 - OpenAI API key
+
+#### Node.js Setup
+
+We recommend using [nvm](https://github.com/nvm-sh/nvm) (Node Version Manager) to manage your Node.js versions:
+
+```bash
+# Install nvm (if you haven't already)
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
+
+# Install Node.js 20
+nvm install 20
+
+# Use Node.js 20
+nvm use 20
+
+# Verify installation
+node --version # Should output v20.x.x
+```
 
 ### Installation
 
